@@ -82,6 +82,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\ILNH_2019_SiteAssets_HairFacts_PHBalance_PHBalanceScaleImage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phskala.PNG" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\ILNH_2019_SiteAssets_HairFacts_PHBalance_PHBalanceScaleImage.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

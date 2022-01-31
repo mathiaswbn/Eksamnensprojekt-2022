@@ -10,13 +10,13 @@ using System.Windows.Forms;
 
 namespace Eksamnensprojekt_2022
 {
-    public partial class Form1 : Form
+    public partial class StartScreenForm : Form
     {
-        public Form1()
+        public StartScreenForm()
         {
             this.BackgroundImage = Properties.Resources.phskala;
+            this.BackgroundImageLayout = ImageLayout.Stretch;
             InitializeComponent();
         }
-
     }
 }
