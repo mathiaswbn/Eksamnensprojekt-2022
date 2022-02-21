@@ -12,9 +12,15 @@ namespace Eksamnensprojekt_2022
 {
     public partial class StartScreenForm : Form
     {
+        public class CsvReader
+        {
+
+        }
         public StartScreenForm()
         {
             InitializeComponent();
+
+            using (CsvReader csv = new CsvReader(new StreamReader("fil"), true);
         }
     }
 }
