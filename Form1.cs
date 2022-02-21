@@ -14,8 +14,6 @@ namespace Eksamnensprojekt_2022
     {
         public StartScreenForm()
         {
-            this.BackgroundImage = Properties.Resources.phskala;
-            this.BackgroundImageLayout = ImageLayout.Stretch;
             InitializeComponent();
         }
     }
